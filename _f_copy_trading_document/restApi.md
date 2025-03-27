@@ -11,10 +11,6 @@ content_markdown: |-
     **USDT-M:https://fapi.xt.com**
     {: .info}
 
-
-    **Coin-M:https://dapi.xt.com**
-    {: .info}
-
 left_code_blocks:
     -
         code_block:
