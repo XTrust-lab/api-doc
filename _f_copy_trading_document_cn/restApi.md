@@ -11,10 +11,6 @@ content_markdown: |-
     **U本位合约:https://fapi.xt.com**
     {: .info}
 
-
-    **币本位合约:https://dapi.xt.com**
-    {: .info}
-
 left_code_blocks:
     -
         code_block:
