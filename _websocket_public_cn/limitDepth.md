@@ -38,7 +38,6 @@ right_code_blocks:
                     "data": {
                         "s": "btc_usdt",        // symbol 交易对
                         "i": 12345678,          // updateId
-                        "t": 1657699200000,     // time 时间戳
                         "a": [                  // asks 卖盘
                             [                   //[0]价格, [1]数量
                                 "34000",        //价格
