@@ -37,7 +37,7 @@ right_code_blocks:
                     "event": "depth@btc_usdt,20", 
                     "data": {
                         "s": "btc_usdt",        // symbol
-                        "t": 1657699200000,     // updateId
+                        "i": 1657699200000,     // updateId
                         "a": [                  // asks(sell order)
                             [                   //[0]price, [1]quantity
                                 "34000",        //price
