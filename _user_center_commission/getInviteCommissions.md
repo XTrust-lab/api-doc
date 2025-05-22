@@ -1,5 +1,5 @@
 ---
-title: Get Invite User Commission Information
+title: Query User Commissions
 position_number: 9
 type: get
 description: /v4/referal/invite/commissions
