@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    Take https://sapi.xt-uat.com/v4/order as an example.
+    Take https://sapi.xt.com/v4/order as an example.
     
     
     The following is an example appkey and secret for placing an order using a call interface implemented by echo openssl and curl tools in the linux bash environment for demonstration purposes only:
