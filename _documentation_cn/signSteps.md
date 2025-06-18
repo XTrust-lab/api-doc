@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    以https://sapi.xt-uat.com/v4/order为例。
+    以https://sapi.xt.com/v4/order为例。
     
     
     以下是在linux bash环境下使用 echo openssl 和curl工具实现的一个调用接口下单的示例 appkey、secret仅供示范：
