@@ -1,5 +1,5 @@
 ---
-title: Get follower order page
+title: Get follower position
 position_number: 34
 type: get
 description: /future/copytrade/user/v1/copy-trade/follower-position
