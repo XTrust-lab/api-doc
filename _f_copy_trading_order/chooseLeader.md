@@ -74,6 +74,27 @@ parameters:
         default:
         description: follow loss operation
         ranges: MARKET_SELL,LEADER_CLOSE,MANUAL_PROCESS
+    -
+        name: syncPosition
+        type: boolean
+        mandatory: false
+        default:
+        description: auto copy new future market true or false  (smart copy)
+        ranges: true,false
+    -
+      name: followMode
+      type: enum
+      mandatory: false
+      default:
+      description: Follow-up mode CUSTOM (custom follow-up) or AUTO (intelligent follow-up)
+      ranges: CUSTOM,AUTO
+    -
+      name: transferFromBizType
+      type: enum
+      mandatory: true
+      default:
+      description: Transfer from SPOT or FUTURES_U (future)
+      ranges: SPOT,FUTURES_U
 
 content_markdown: >-
     #### **Limit Flow Rules**
