@@ -74,6 +74,27 @@ parameters:
         default:
         description: 跟单止损仓位处理
         ranges: MARKET_SELL,LEADER_CLOSE,MANUAL_PROCESS
+    -
+        name: syncPosition
+        type: boolean
+        mandatory: false
+        default:
+        description: 自动跟单新增合约市场 true是 false否（智能跟单）
+        ranges: true,false
+    -
+        name: followMode
+        type: enum
+        mandatory: false
+        default:
+        description: 跟单模式 CUSTOM（自定义跟单 ) AUTO（智能跟单）
+        ranges: CUSTOM,AUTO
+    -
+        name: transferFromBizType
+        type: enum
+        mandatory: true
+        default:
+        description: 转账来自 SPOT：现货 FUTURES_U：合约
+        ranges: SPOT,FUTURES_U
 
 content_markdown: >-
     #### **限流规则**
