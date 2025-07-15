@@ -1,5 +1,5 @@
 ---
-title: Get Current Following (V2)
+title: Get Current Following List
 position_number: 33
 type: get
 description: /future/copytrade/user/v1/copy-trade/current-following-v2

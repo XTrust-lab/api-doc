@@ -2,7 +2,7 @@
 title: 获取历史跟单持仓
 position_number: 35
 type: get
-description: /future/copytrade/order/copy-trade/follower-position-history
+description: /future/copytrade/user/v1/copy-trade/follower-position-history
 parameters:
       -
         name: leaderAccountId
