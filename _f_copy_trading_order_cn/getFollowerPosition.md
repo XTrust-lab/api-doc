@@ -2,7 +2,7 @@
 title: 获取当前跟单持仓
 position_number: 34
 type: get
-description: /future/copytrade/order/copy-trade/follower-position
+description: /future/copytrade/user/v1/copy-trade/follower-position
 parameters:
     -
         name: leaderAccountId
