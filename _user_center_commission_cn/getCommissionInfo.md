@@ -54,6 +54,9 @@ parameters:
     description: 每页数量，最大100
     ranges: 1<=limit<=100
 content_markdown: >-
+    #### **备注**
+
+    仅支持查询近3月数据
 
 left_code_blocks:
   -
