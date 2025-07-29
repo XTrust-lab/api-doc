@@ -1,15 +1,15 @@
 ---
-title: Batch Cancel Orders
-position_number: 7
+title: Cancel All Orders
+position_number: 8
 type: post
-description: /future/trade/v1/order/cancel-batch
+description: /future/trade/v1/order/cancel-all
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
-  - name: orderIds
-    type: string
+  - name: symbol
+    type: String
     mandatory: true
-    default:
-    description: order IDs (comma-separated)
+    default: N/A
+    description: Trading pair (cancel all trading pair orders if pass "")
     ranges:
 content_markdown: |-
 
