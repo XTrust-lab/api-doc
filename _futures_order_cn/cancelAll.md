@@ -1,21 +1,21 @@
 ---
-title: Batch Cancel Orders
-position_number: 7
+title: 撤销所有订单
+position_number: 8
 type: post
-description: /future/trade/v1/order/cancel-batch
+description: /future/trade/v1/order/cancel-all
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
-  - name: orderIds
-    type: string
+  - name: symbol
+    type: String
     mandatory: true
-    default:
-    description: order IDs (comma-separated)
+    default: N/A
+    description: 交易对（传空字符串撤销所有交易对订单）
     ranges:
 content_markdown: |-
 
-               #### **Limit Flow Rules**
+                #### **限流规则**
 
-               200/s/apikey
+                200/s/apikey
 right_code_blocks:
   - code_block: |-
       {
