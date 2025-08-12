@@ -47,6 +47,48 @@ parameters:
         default:
         description: Position side:LONG;SHORT
         ranges: LONG;SHORT
+        -
+        name: profitDelegateOrderType
+        type: string
+        mandatory: true
+        default:
+        description: Take profit order type
+        ranges: LIMIT ,MARKET
+    -
+        name: profitDelegateTimeInForce
+        type: string
+        mandatory: true
+        default:
+        description: Take profit order time in force
+        ranges: GTC，FOK，IOC，GTX
+    -
+        name: profitDelegatePrice
+        type: number
+        mandatory: false
+        default:
+        description: Take profit order price
+        ranges: 
+    -
+        name: stopDelegateOrderType
+        type: string
+        mandatory: true
+        default:
+        description: Stop loss order type
+        ranges: LIMIT ,MARKET
+    -
+        name: stopDelegateTimeInForce
+        type: string
+        mandatory: true
+        default:
+        description:  Stop loss order time in force
+        ranges: GTC，FOK，IOC，GTX
+    -
+        name: stopDelegatePrice
+        type: number
+        mandatory: false
+        default:
+        description: Stop loss order price 
+        ranges:    
         
 content_markdown: |-
 
