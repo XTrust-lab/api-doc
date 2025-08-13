@@ -82,7 +82,13 @@ right_code_blocks:
                 "state": "", //订单状态 NOT_TRIGGERED：新建委托（未触发）；TRIGGERING：触发中；TRIGGERED：已触发；USER_REVOCATION：用户撤销；PLATFORM_REVOCATION：平台撤销（拒绝）；EXPIRED：已过期
                 "symbol": "", //交易对
                 "triggerProfitPrice": 0, //止盈价格
-                "triggerStopPrice": 0 //止损价格
+                "triggerStopPrice": 0, //止损价格
+                "profitDelegateOrderType": "LIMIT", //止盈订单类型：LIMIT 限价；MARKET 市价
+                "profitDelegatePrice":0, //止盈委托委托价格
+                "profitDelegateTimeInForce":"GTC", //止盈委托有效方式：GTC FOK IOC GTX
+                "stopDelegateOrderType":"LIMIT", //止损委托订单类型:LIMIT 限价；MARKET 市价
+                "stopDelegatePrice":0, //止损委托价格
+                "stopDelegateTimeInForce":"GTC" //止损委托有效方式：GTC FOK IOC GTX
               }
             ],
             "page": 0,

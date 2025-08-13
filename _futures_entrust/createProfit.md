@@ -47,7 +47,7 @@ parameters:
         default:
         description: Position side:LONG;SHORT
         ranges: LONG;SHORT
-        -
+    -
         name: profitDelegateOrderType
         type: string
         mandatory: true
