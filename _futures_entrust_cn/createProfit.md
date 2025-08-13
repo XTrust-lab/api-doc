@@ -102,15 +102,15 @@ left_code_blocks:
         language: java
 right_code_blocks:
     - code_block: |-
-                    {
-                        "error": {
-                        "code": "",
-                        "msg": ""
-                        },
-                        "msgInfo": "",
-                        "result": {},
-                        "returnCode": 0
-                    }
-                    title: Response
-                    language: json
+        {
+          "error": {
+            "code": "",
+            "msg": ""
+          },
+          "msgInfo": "",
+          "result": {},
+          "returnCode": 0
+        }
+      title: Response
+      language: json
 ---
