@@ -89,7 +89,7 @@ parameters:
         default:
         description: 止损委托价格
         ranges: 
-                        
+
 content_markdown: |-
 
                 #### **限流规则**
@@ -103,14 +103,14 @@ left_code_blocks:
 right_code_blocks:
     - code_block: |-
         {
-            "error": {
+          "error": {
             "code": "",
             "msg": ""
-            },
-            "msgInfo": "",
-            "result": {},
-            "returnCode": 0
+          },
+          "msgInfo": "",
+          "result": {},
+          "returnCode": 0
         }
-        title: Response
-        language: json
+      title: Response
+      language: json
 ---
