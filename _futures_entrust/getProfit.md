@@ -80,8 +80,14 @@ right_code_blocks:
                 "profitId": 0, //Order ID
                 "state": "", //Order state:NOT_TRIGGERED：New order (not triggered);TRIGGERING:Triggering;TRIGGERED:Triggered;USER_REVOCATION:User revocation;PLATFORM_REVOCATION:Platform revocation (rejection);EXPIRED:expired;
                 "symbol": "", //Trading pair
-                "triggerProfitPrice": 0, //Stop profit price
-                "triggerStopPrice": 0 //Stop loss price
+                "triggerProfitPrice": 0, // Take profit price
+                "triggerStopPrice": 0, // Stop loss price
+                "profitDelegateOrderType": "LIMIT", // Take profit order type: LIMIT (limit order); MARKET (market order)
+                "profitDelegatePrice": 0, // Take profit delegate price
+                "profitDelegateTimeInForce": "GTC", // Take profit delegate time in force: GTC, FOK, IOC, GTX
+                "stopDelegateOrderType": "LIMIT", // Stop loss delegate order type: LIMIT (limit order); MARKET (market order)
+                "stopDelegatePrice": 0, // Stop loss delegate price
+                "stopDelegateTimeInForce": "GTC" // Stop loss delegate time in force: GTC, FOK, IOC, GTX
               }
             ],
             "page": 0,

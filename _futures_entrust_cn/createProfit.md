@@ -47,6 +47,49 @@ parameters:
         default:
         description: 仓位方向：LONG;SHORT
         ranges: LONG;SHORT
+    -
+        name: profitDelegateOrderType
+        type: string
+        mandatory: true
+        default:
+        description: 止盈订单类型
+        ranges: LIMIT ,MARKET
+    -
+        name: profitDelegateTimeInForce
+        type: string
+        mandatory: true
+        default:
+        description: 止盈委托有效方式
+        ranges: GTC，FOK，IOC，GTX
+    -
+        name: profitDelegatePrice
+        type: number
+        mandatory: false
+        default:
+        description: 止盈委托委托价格
+        ranges: 
+    -
+        name: stopDelegateOrderType
+        type: string
+        mandatory: true
+        default:
+        description: 止损委托订单类型
+        ranges: LIMIT ,MARKET
+    -
+        name: stopDelegateTimeInForce
+        type: string
+        mandatory: true
+        default:
+        description: 止损委托有效方式
+        ranges: GTC，FOK，IOC，GTX
+    -
+        name: stopDelegatePrice
+        type: number
+        mandatory: false
+        default:
+        description: 止损委托价格
+        ranges: 
+                        
 content_markdown: |-
 
                 #### **限流规则**
