@@ -24,7 +24,7 @@ content_markdown: >-
     vi：越南语<br>
     th：泰语<br>
     **3. clientId**<br>
-    机构唯一标识，请提前向XT.COM申请<br>
+    机构唯一标识，请提前向X.GROUP申请<br>
     **例如:**<br>
     http://www.x.group/en/accounts/register?client_id=DDJ7BLK49YUCL97S<br>
     通过该url注册的用户将属于机构:DDJ7BLK49YUCL97S

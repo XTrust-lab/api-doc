@@ -6,7 +6,7 @@ parameters:
       content:
 content_markdown: >-
 
-    当第三方平台需要XT.COM用户授权某些操作时，请从第三方平台页面跳转到`http(s)://{URL}/{language}/accounts/oauth2?response_type=code&client_id={clientId}&redirect_uri={redirectUri}&scope={scope}`<br>
+    当第三方平台需要X.GROUP用户授权某些操作时，请从第三方平台页面跳转到`http(s)://{URL}/{language}/accounts/oauth2?response_type=code&client_id={clientId}&redirect_uri={redirectUri}&scope={scope}`<br>
     **参数说明**<br>
     **1. URL**<br>
     xt授权页面域名，正式环境为: www.x.group<br>
@@ -24,11 +24,11 @@ content_markdown: >-
     vi：越南语<br>
     th：泰语<br>
     **3. clientId**<br>
-    机构唯一标识，请提前向XT.COM申请<br>
+    机构唯一标识，请提前向X.GROUP申请<br>
     **4. redirectUri** <br>
     授权成功后的跳转到的地址<br>
     **5. scope**<br>
-    授权作用域，和clientId一同向XT.COM获取<br>
+    授权作用域，和clientId一同向X.GROUP获取<br>
     **例如:**<br>
     http://www.x.group/zh-CN/accounts/oauth2?response_type=code&client_id=DDJ7BLK49YUCL97S&redirect_uri=https%3A%2F%2Fwww.baidu.com&scope=userinfo
 
