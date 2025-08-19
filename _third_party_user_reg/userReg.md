@@ -6,7 +6,7 @@ parameters:
       content:
 content_markdown: >-
 
-    If you do not have an XTRUST account, please register in advance, register address：`http(s)://{URL}/{language}/accounts/register?client_id={clientId}`<br>
+    If you do not have an XTrust account, please register in advance, register address：`http(s)://{URL}/{language}/accounts/register?client_id={clientId}`<br>
     **Parameter**<br>
     **1. URL**<br>
     The domain name of the xt authorization page, the official environment is: www.x.group<br>

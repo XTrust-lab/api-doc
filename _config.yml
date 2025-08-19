@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: XTRUST DOC
-description: XTRUST Interface documentation.
+title: XTrust DOC
+description: XTrust Interface documentation.
 url: https://xt-com.github.io/xt4-api/
 google_analytics_key:
 permalink: pretty
@@ -61,7 +61,7 @@ collections:
     language: en
     position_number: 9
   convert_small_assets:
-    title: Convert Small Assets to XTRUST
+    title: Convert Small Assets to XTrust
     type: spot
     language: en
     position_number: 10

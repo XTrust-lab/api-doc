@@ -57,7 +57,7 @@ right_code_blocks:
                                     "currency": "ADA",          // 币种名称
                                     "amount": "6.21",           // 数量
                                     "convertAmount": "6.21",    // 转换数量
-                                    "convertCurrency": "XTRUST",    // 转换币种
+                                    "convertCurrency": "XTrust",    // 转换币种
                                     "convertFee": "0.00035546", // 手续费
                                     "createTime": 1615985535000 // 操作时间
                                 }

@@ -5,12 +5,12 @@ parameters:
 - name:
 content:
 content_markdown: |-
-  XTRUST API Telegram Group: [XTRUST API Support Group](https://t.me/XT_api)<br />
-  XTRUST API Ticket： [Create API Ticket](https://xtsupport.zendesk.com/hc/zh-cn/requests/new?ticket_form_id=14988676408857)
+  XTrust API Telegram Group: [XTrust API Support Group](https://t.me/XT_api)<br />
+  XTrust API Ticket： [Create API Ticket](https://xtsupport.zendesk.com/hc/zh-cn/requests/new?ticket_form_id=14988676408857)
   * <font size=3>For any general questions about the API not covered in the documentation.</font>
   * <font size=3>For any MM questions</font>
 
-  XTRUST Customer Support: Website and App online customer service
+  XTrust Customer Support: Website and App online customer service
   * <font size=3>For cases such as missing funds, help with 2FA, etc.</font>
 
 
