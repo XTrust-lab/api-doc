@@ -7,7 +7,7 @@ parameters:
         content:
 content_markdown: |-
 
-    **生产环境: https://api.xt.com**
+    **生产环境: https://api.x.group**
     {: .info}
 
 

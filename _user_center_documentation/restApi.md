@@ -7,7 +7,7 @@ parameters:
         content:
 content_markdown: |-
 
-    **production environment: https://api.xt.com**
+    **production environment: https://api.x.group**
     {: .info}
 
 

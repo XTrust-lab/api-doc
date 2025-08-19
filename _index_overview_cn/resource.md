@@ -22,11 +22,11 @@ content_markdown: >-
 
   #### JavaScript 库
 
-  此 JavaScript SDK 提供对各种端点的访问，以便与 XT 平台进行交互: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
+  此 JavaScript SDK 提供对各种端点的访问，以便与 XTRUST 平台进行交互: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
 
   #### 客户服务
 
-  在我们的电报组中获取支持: [XT API Support Group](https://t.me/XT_api)<br />
+  在我们的电报组中获取支持: [XTRUST API Support Group](https://t.me/XT_api)<br />
   如有疑问请咨询在线客服
 
 ---

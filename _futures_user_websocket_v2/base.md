@@ -14,7 +14,7 @@ parameters:
 content_markdown: >-
     #### **Base Address**
 
-    ##### **wss://fstream.xt.com/ws/user**
+    ##### **wss://fstream.x.group/ws/user**
 
 
     ---

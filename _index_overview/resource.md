@@ -22,11 +22,11 @@ content_markdown: >-
 
   #### JavaScript SDK
 
-  This JavaScript SDK provides access to various endpoints for interacting with the XT platform: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
+  This JavaScript SDK provides access to various endpoints for interacting with the XTRUST platform: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
 
   #### Customer service
 
-  Get support in our telegram group: [XT API Support Group](https://t.me/XT_api)<br />
+  Get support in our telegram group: [XTRUST API Support Group](https://t.me/XT_api)<br />
   If you have any questions, please consult online customer service
 
 ---

@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     Official:
 
-    **USDT-M:https://fapi.xt.com**
+    **USDT-M:https://fapi.x.group**
     {: .info}
 
 left_code_blocks:

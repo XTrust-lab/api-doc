@@ -15,7 +15,7 @@ parameters:
 content_markdown: >-
     #### **基地址**
 
-    ##### **wss://fstream.xt.com/ws/market**
+    ##### **wss://fstream.x.group/ws/market**
 
 
     ---
