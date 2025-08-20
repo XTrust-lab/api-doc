@@ -5,8 +5,8 @@ parameters:
 - name:
 content:
 content_markdown: |-
-  XTrust API Telegram Group: [XTrust API Support Group](https://t.me/XT_api)<br />
-  XTrust API Ticket： [Create API Ticket](https://xtsupport.zendesk.com/hc/zh-cn/requests/new?ticket_form_id=14988676408857)
+  XTrust API Telegram Group: [XTrust API Support Group]()<br />
+  XTrust API Ticket： [Create API Ticket]()
   * <font size=3>For any general questions about the API not covered in the documentation.</font>
   * <font size=3>For any MM questions</font>
 
