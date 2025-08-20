@@ -6,10 +6,10 @@ parameters:
 content:
 content_markdown: >-
 
-  When the third-party platform requires X.GROUP users to authorize certain operations, please jump from the third-party platform page to `http(s)://{URL}/{language}/accounts/oauth2?response_type=code&client_id={clientId}&redirect_uri={redirectUri}&scope={scope}`<br>
+  When the third-party platform requires XTrust users to authorize certain operations, please jump from the third-party platform page to `http(s)://{URL}/{language}/accounts/oauth2?response_type=code&client_id={clientId}&redirect_uri={redirectUri}&scope={scope}`<br>
     **Parameter**<br>
     **1. URL**<br>
-  The domain name of the xt authorization page, the official environment is: www.x.group<br>
+  The domain name of the xtrust authorization page, the official environment is: www.x.group<br>
     **2. language**<br>
   Authorization page language, the currently supported content is as follows：<br>
     en：English<br>
@@ -24,11 +24,11 @@ content_markdown: >-
     vi：vietnamese<br>
     th：Thai<br>
     **3. clientId**<br>
-  The unique identification of the organization, please apply to X.GROUP in advance<br>
+  The unique identification of the organization, please apply to XTrust in advance<br>
     **4. redirectUri** <br>
   The redirected address after successful authorization<br>
     **5. scope**<br>
-  Authorization scope, obtained from X.GROUP together with clientId<br>
+  Authorization scope, obtained from XTrust together with clientId<br>
     **For example:**<br>
     http://www.x.group/zh-CN/accounts/oauth2?response_type=code&client_id=DDJ7BLK49YUCL97S&redirect_uri=https%3A%2F%2Fwww.baidu.com&scope=userinfo
 

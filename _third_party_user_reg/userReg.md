@@ -9,7 +9,7 @@ content_markdown: >-
     If you do not have an XTrust account, please register in advance, register address：`http(s)://{URL}/{language}/accounts/register?client_id={clientId}`<br>
     **Parameter**<br>
     **1. URL**<br>
-    The domain name of the xt authorization page, the official environment is: www.x.group<br>
+    The domain name of the xtrust authorization page, the official environment is: www.x.group<br>
     **2. language**<br>
     Authorization page language, the currently supported content is as follows：<br>
     en：English<br>
@@ -24,7 +24,7 @@ content_markdown: >-
     vi：vietnamese<br>
     th：Thai<br>
     **3. clientId**<br>
-    The unique identification of the organization, please apply to X.GROUP in advance<br>
+    The unique identification of the organization, please apply to XTrust in advance<br>
     **For Example:**<br>
     http://www.x.group/en/accounts/register?client_id=DDJ7BLK49YUCL97S<br>
     Users registered through this url will belong to the institution:DDJ7BLK49YUCL97S
